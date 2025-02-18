@@ -3,7 +3,7 @@ sudo apt update
 
 ## Extensions Manager
 sudo apt install gnome-shell-extension-manager
-sudo apt-get install ubuntu-tweak
+sudo apt-get install gnome-tweaks
 
 
 ## Git
@@ -82,3 +82,18 @@ sudo mv pgadmin-key.gpg /etc/apt/trusted.gpg.d/
 sudo sh -c 'echo "deb https://ftp.postgresql.org/pub/pgadmin/pgadmin4/apt/focal/ pgadmin4 main" > /etc/apt/sources.list.d/pgadmin4.list'
 sudo apt update
 sudo apt install pgadmin4
+
+
+## Discord
+# install from snap store
+
+
+## pipx & poetry
+# https://pipx.pypa.io/stable/installation/
+# https://python-poetry.org/docs/
+sudo apt update
+sudo apt install pipx
+pipx ensurepath
+
+pipx install poetry
+pipx inject poetry poetry-plugin-shell
