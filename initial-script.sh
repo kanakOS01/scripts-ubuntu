@@ -42,6 +42,7 @@ su - ${USER}
 groups
 docker login
 
+# this seems to install docker compose plugin as well so don't perform the below steps (may be redundant?)
 
 ## Docker compose
 sudo curl -L "https://github.com/docker/compose/releases/download/v2.31.0/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose  # check version before installing
