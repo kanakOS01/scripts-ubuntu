@@ -110,3 +110,10 @@ exec $SHELL
 sudo apt update; sudo apt install build-essential libssl-dev zlib1g-dev \
 libbz2-dev libreadline-dev libsqlite3-dev curl git \
 libncursesw5-dev xz-utils tk-dev libxml2-dev libxmlsec1-dev libffi-dev liblzma-dev
+
+
+## Proto VPN
+wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-stable-release_1.0.6_all.deb
+sudo apt install ./protonvpn-stable-release_1.0.6_all.deb 
+sudo apt update
+sudo apt install proton-vpn-gnome-desktop
