@@ -117,3 +117,9 @@ wget https://repo.protonvpn.com/debian/dists/stable/main/binary-all/protonvpn-st
 sudo apt install ./protonvpn-stable-release_1.0.6_all.deb 
 sudo apt update
 sudo apt install proton-vpn-gnome-desktop
+
+
+## Mongo DB
+# Compass
+wget https://downloads.mongodb.com/compass/mongodb-compass_1.44.5_amd64.deb
+sudo apt install ./mongodb-compass_1.44.5_amd64.deb  
